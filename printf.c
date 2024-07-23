@@ -7,7 +7,7 @@ int _printf(const char *format, ...)
         int i = 0, j = 0, len = 0;
         char *tmp;
         va_start(args,format);
-        if (format)
+        if (format[i])
         {
                 while (format[i])
                 {
@@ -51,6 +51,10 @@ int _printf(const char *format, ...)
                         }
                 }
         }
+	else
+	{
+		return ;
+	}
         va_end(args);
         return (len);
 }
