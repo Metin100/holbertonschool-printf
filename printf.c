@@ -38,8 +38,10 @@ int _printf(const char *format, ...)
                                 _putchar('%');
                                 len++;
                                 i = i + 2;
-                        
-			
+                        }
+			else if (format[i] == '%' && format[i + 1] == '\0')
+			{
+				return (-1);
 			}
 			else
                         {
