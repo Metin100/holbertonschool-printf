@@ -1,0 +1,51 @@
+.TH _printf 3 "25  July 2024" "0.01" "_printf man page"
+.SH NAME
+.B _printf
+- A custom implementation of the printf function
+.SH SYNOPSIS
+To use this function, the `#include "main.h"` header is required.
+.SH DESCRIPTION
+The _printf() function produces output according to a format as described below. This function writes its output to stdout, the standard output stream.
+
+.SH USAGE
+To use _printf, you need to use the following format specifiers preceded by the % symbol:
+.RS 3
+.TP
+.B %c
+Prints a single character.
+.TP
+.B %s
+Prints a string of characters.
+.TP
+.B %d
+Prints a signed decimal integer.
+.TP
+.B %i
+Prints a signed decimal integer.
+.RE
+The _printf() function returns the total number of characters printed, excluding the null byte used to end output to strings.
+
+.SH RETURN VALUE
+The _printf() function returns the number of characters printed (excluding the null byte).
+
+.SH EXAMPLES
+Here are some examples of how to use the _printf function:
+.RS 3
+.TP
+_printf("Character: %c\n", 'A');
+Prints "Character: A".
+.TP
+_printf("String: %s\n", "Hello, world!");
+Prints "String: Hello, world!".
+.TP
+_printf("Integer: %d\n", 123);
+Prints "Integer: 123".
+.RE
+
+.SH SEE ALSO
+.I printf(3), fprintf(3), sprintf(3)
+.SH BUGS
+No known bugs at the moment.
+.SH AUTHOR
+Metin Abbaszade
+Fatima Umudova
