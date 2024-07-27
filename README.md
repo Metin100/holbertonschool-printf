@@ -17,11 +17,11 @@ In this project, we recreated the printf function found in the stdio.h library i
 
 | Specifier	 | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `%c` | `char` | Print a single character. |
-| `%s` | `string` | Print a string. |
-| `%d` | `int` | Print a signed decimal integer. |
-| `%i` | `int` | Print a signed decimal integer. |
-| `%%` | `char` |Print a literal % character. |
+| `%c` | `char` | Print a single character |
+| `%s` | `string` | Print a string |
+| `%d` | `int` | Print a signed decimal integer |
+| `%i` | `int` | Print a signed decimal integer |
+| `%%` | `char` |Print a literal % character |
 
 
 
