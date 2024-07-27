@@ -5,7 +5,7 @@
 
 #  `_printf` Function in C
 
-In this project, we recreated the printf function found in the stdio.h library in the C programming language. This function allows us to print any argument given to the standard output or terminal. Similar printing functions can be found in any programming language. This means we can print any combinations of strings, integers, and other different data types. write same thing but different version.
+In this project, we recreateda mini-version of the printf function found in the stdio.h library in the C programming language. This function allows us to print any argument given to the standard output or terminal. Similar printing functions can be found in any programming language. This means we can print any combinations of strings, integers, and other different data types. write same thing but different version.
 ## Features
 - Supports conversion specifiers: `%c`, `%s`, `%d`, `%i`, and `%%`.
 - Handles variable arguments using `stdarg.h`.
